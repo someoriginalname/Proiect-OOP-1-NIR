@@ -628,7 +628,7 @@ return v;
          NIR v,*d1,*d2,*c,*c1,*c2;
          int rem=0,elem=0,k=0;
          if (this->semn==nr.semn)
-            v.semn=this->semn;
+            v.semn='+';
          else
             v.semn='-';
             v.u=new NIR;
